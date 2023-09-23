@@ -6,6 +6,8 @@ body{
     padding:0;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none !important;
+    list-style-type: none !important;
 }
 
 /*Navbar*/
@@ -15,11 +17,12 @@ body{
     background-color: #ffffff !important;
     height:88px;
     border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
 }
 .navbar-left{
     display:flex;
     border:2px solid blue;
-    width:806px;
     height:auto;
     margin-left: -80px;
 }
@@ -37,4 +40,16 @@ body{
     padding-top:11px;
     padding-left:3px;
     font-weight:bolder;
+}
+
+.navbar-right{
+    border:2px solid green;
+    display:flex;
+    flex-wrap: wrap;
+    color:#1d1e20;
+   
+}
+
+.navbar-right button:hover{
+    background-color: #673de6 !important;
 }
