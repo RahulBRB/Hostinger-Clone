@@ -12,29 +12,28 @@ body{
 .navbar {
     color: #1d1e20;
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
     background-color: #ffffff !important;
     height:88px;
     border:1px solid black;
 }
-
-.navbar-brand{
-    width: 147px; 
-    height: 30px;
-    margin:0px;
-}
-.brand-flex{
+.navbar-left{
     display:flex;
-    border:2px solid black;
-    width:10%;
-
+    border:2px solid blue;
+    width:806px;
+    height:auto;
 }
-.brand-flex .lang {
-    width:36px !important;
-    height:20px;
-
+.navbar-brand img{
+    padding-top: 0px;
+    width: 147px !important; 
+    height: 30px !important;
 }
-
-.brand-flex p{
-    font-family: 'DM Sans', sans-serif !important;
+.navbar-left img:nth-child(2){
+    height:30px !important;
+    padding-top:1.9%;
+}
+.navbar-left p{
+    height:30px;
+    padding-top:11px;
+    padding-left:3px;
+    font-weight:bolder;
 }
