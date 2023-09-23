@@ -7,3 +7,18 @@ body{
     font-family: 'DM Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Navbar*/
+.navbar {
+    color: #1d1e20;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff !important;
+    height:88px;
+    border:1px solid black;
+}
+.navbar img{
+    width: 147px; 
+    height: 30px;
+    margin:-80px;
+}
