@@ -17,14 +17,24 @@ body{
     height:88px;
     border:1px solid black;
 }
-.brand-flex{
-    display:flex
-}
-.navbar .navbar-brand{
+
+.navbar-brand{
     width: 147px; 
     height: 30px;
     margin:0px;
 }
-.navbar .lang img{
+.brand-flex{
+    display:flex;
+    border:2px solid black;
+
+}
+.brand-flex .lang {
     width:36px !important;
+    height:20px;
+
+}
+
+.brand-flex p{
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 700px !important   ;
 }
