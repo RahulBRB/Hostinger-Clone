@@ -26,6 +26,7 @@ body{
 .brand-flex{
     display:flex;
     border:2px solid black;
+    width:10%;
 
 }
 .brand-flex .lang {
@@ -36,5 +37,4 @@ body{
 
 .brand-flex p{
     font-family: 'DM Sans', sans-serif !important;
-    font-weight: 700px !important   ;
 }
