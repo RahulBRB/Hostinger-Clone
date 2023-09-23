@@ -21,6 +21,7 @@ body{
     border:2px solid blue;
     width:806px;
     height:auto;
+    margin-left: -80px;
 }
 .navbar-brand img{
     padding-top: 0px;
