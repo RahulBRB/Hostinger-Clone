@@ -17,8 +17,14 @@ body{
     height:88px;
     border:1px solid black;
 }
-.navbar img{
+.brand-flex{
+    display:flex
+}
+.navbar .navbar-brand{
     width: 147px; 
     height: 30px;
-    margin:-80px;
+    margin:0px;
+}
+.navbar .lang img{
+    width:36px !important;
 }
