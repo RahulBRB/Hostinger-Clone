@@ -81,4 +81,16 @@ a:hover{
     width:1312px;
     border:2px solid black;
     margin-top:164px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.left-side{
+    border:2px solid black;
+    height:548px;
+    width:429px;
+}
+
+.inner-hero-container > .left-side{
+    border:2px solid black;
+
 }
