@@ -71,3 +71,8 @@ a:hover{
     border:2px solid black;
     border-radius: 5px;
 }
+/*Navbar*/
+.hero-container{
+    height:808px;
+    border:2px solid black;
+}
