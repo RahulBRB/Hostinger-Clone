@@ -74,12 +74,10 @@ a:hover{
 /*Navbar*/
 .hero-container{
     height:808px;
-    border:2px solid black;
 }
 .inside-hero-container{
     height:548px;
     width:1312px;
-    border:2px solid black;
     margin-top:164px;
     display:flex;
     flex-wrap:wrap;
@@ -90,7 +88,10 @@ a:hover{
     width:429px;
 }
 
-.inner-hero-container > .left-side{
-    border:2px solid black;
-
+.right-side img{
+    width:718px;
+    height:461px;
+    margin-top:62px;
+    margin-bottom: 43px;
+    margin-left:154px;
 }
