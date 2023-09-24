@@ -158,3 +158,16 @@ a:hover{
     margin:0;
     margin-top:10px;
 }
+.claim button{
+    width:315px;
+    height:48px;
+    color:white;
+    background-color: #673de6;
+    margin-top:24px;
+    border-radius: 5px;
+    border:none;
+}
+.claim p{
+    margin-top:12px;
+    color:#2f1c6a;
+}
