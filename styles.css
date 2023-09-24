@@ -28,7 +28,6 @@ a:hover{
     font-family: 'DM Sans', sans-serif;
     background-color: #ffffff !important;
     height:88px;
-    border:1px solid black;
     display:flex;
     flex-wrap: wrap;
 }
@@ -91,7 +90,6 @@ a:hover{
     margin-left:154px;
 }
 .left-side{
-    border:2px solid black;
     height:548px;
     width:429px;
     text-align: start;
