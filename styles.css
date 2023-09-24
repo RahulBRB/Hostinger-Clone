@@ -119,3 +119,15 @@ a:hover{
     font-size:12px;
     padding:3px;
 }
+.dollar{
+    font-size: 20px;
+    color:#2f1c6a;
+}
+.price{
+    font-size:48px;
+    color:#2f1c6a;
+}
+.month{
+    font-size:20px;
+    color:#2f1c6a;
+}
