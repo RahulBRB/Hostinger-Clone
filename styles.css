@@ -171,3 +171,10 @@ a:hover{
 }
 /*Review first*/
 
+.review-first{
+    height:236px;
+    border:2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:96px;
+}
