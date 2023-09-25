@@ -204,6 +204,9 @@ a:hover{
     width:20%;
     text-align: left;
 }
+.reviewbox .brand{
+    height:23px;
+}
 .reviewbox img{
-    height:24px;
+    height:30px;
 }
