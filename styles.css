@@ -173,16 +173,16 @@ a:hover{
 
 .review-first{
     height:auto;
-    width:90%;
-    border:2px solid black;
+    width:100%;
     display:flex;
     flex-wrap: wrap;
     margin-top:96px;
+    justify-content: center;
+    column-gap: 25px;
 
 }
 .review-first p{
-    font-size:14px;
-    font-weight: 40px;
+    font-size:13px;
     color:gray;
 }
 .review-first .review-bold{
@@ -192,6 +192,7 @@ a:hover{
 .trustpilot{
     width:20%;
     text-align: left;
+
 
 }
 .trustpilot .brand{
@@ -206,7 +207,9 @@ a:hover{
 }
 .reviewbox .brand{
     height:23px;
+    margin-top:10px;
 }
 .reviewbox img{
     height:30px;
+    margin-top:5px;
 }
