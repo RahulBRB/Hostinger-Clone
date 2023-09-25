@@ -172,11 +172,22 @@ a:hover{
 /*Review first*/
 
 .review-first{
-    height:236px;
+    height:auto;
+    width:90%;
     border:2px solid black;
     display:flex;
     flex-wrap: wrap;
     margin-top:96px;
+
+}
+.review-first p{
+    font-size:14px;
+    font-weight: 40px;
+    color:gray;
+}
+.review-first .review-bold{
+    font-weight: 700px;
+    color:black;
 }
 .trustpilot{
     width:20%;
