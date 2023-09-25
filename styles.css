@@ -178,3 +178,21 @@ a:hover{
     flex-wrap: wrap;
     margin-top:96px;
 }
+.trustpilot{
+    width:20%;
+    text-align: left;
+
+}
+.trustpilot .brand{
+    height:32px;
+}
+.trustpilot .stars{
+    height:45px;
+}
+.reviewbox{
+    width:20%;
+    text-align: left;
+}
+.reviewbox img{
+    height:24px;
+}
