@@ -219,4 +219,13 @@ a:hover{
 .pricing-section{
     height:1519px;
     border:1px solid black;
+    text-align: center;
+    margin-top:120px;
+
+}
+.pricing-section h1{
+    
+    color:#2f1c6a;
+    font-size: 36px;
+    font-weight: 700px;
 }
