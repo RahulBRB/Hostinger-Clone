@@ -218,10 +218,8 @@ a:hover{
 
 /*Pricing section*/
 .pricing-section{
-    height:auto;
     text-align: center;
     margin-top:120px;
-    border:2px solid black;
 
 }
 .pricing-section h1{
@@ -289,6 +287,10 @@ a:hover{
     border-radius: 50px;
     font-size: 13px;
     margin-left:8px;
+}
+
+.table-two >.claim>button{
+    background-color: #fc5185 !important;
 }
 .tables > .claim > button{
     padding:0;
