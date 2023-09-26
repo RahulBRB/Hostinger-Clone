@@ -235,4 +235,11 @@ a:hover{
     width:80%;
     border:2px solid black;
     margin-top: 48px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.tables{
+    width:200px;
+    border:2px solid black;
+
 }
