@@ -233,13 +233,38 @@ a:hover{
 .pricing-table{
     height:1152px;
     width:80%;
-    border:2px solid black;
     margin-top: 48px;
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
+    column-gap:25px;
 }
 .tables{
-    width:200px;
-    border:2px solid black;
+    width:31%;
+    border:1px solid #2f1c6a;
+    border-radius: 4px;
 
+
+}
+.tables h3{
+    font-size:24px;
+    color:#2f1c6a;
+    margin-top:41px;
+}
+.tables p{
+    font-size: 14px;
+    color:#301c6a98;
+    font-weight:0;
+    width:73%;
+}
+.tables p > .saving{
+    color:#727586;
+}
+.saving > span{
+    color: #5025d1;
+    background-color:#ebe4ff;
+    padding:8px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-left:8px;
 }
