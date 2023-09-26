@@ -253,7 +253,6 @@ a:hover{
     margin-top:41px;
 }
 .table-lines{
-    border:2px solid black;
     width:80%;
     margin-top:-10px !important;
 }
@@ -261,7 +260,7 @@ a:hover{
     text-align: left;
     font-size: 20px;
     color:#2f1c6a;
-    margin-top:20px;
+    margin-top:50px;
     padding-bottom:10px;
 
 }
@@ -301,3 +300,5 @@ a:hover{
 .tables hr{
     background-color: #2f1c6a;
 }
+
+/*Pricing table done*/
