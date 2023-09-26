@@ -218,7 +218,6 @@ a:hover{
 /*Pricing section*/
 .pricing-section{
     height:1519px;
-    border:1px solid black;
     text-align: center;
     margin-top:120px;
 
@@ -228,4 +227,11 @@ a:hover{
     color:#2f1c6a;
     font-size: 36px;
     font-weight: 700px;
+}
+
+.pricing-table{
+    height:1152px;
+    width:80%;
+    border:2px solid black;
+    margin-top: 48px;
 }
