@@ -218,9 +218,10 @@ a:hover{
 
 /*Pricing section*/
 .pricing-section{
-    height:1519px;
+    height:auto;
     text-align: center;
     margin-top:120px;
+    border:2px solid black;
 
 }
 .pricing-section h1{
@@ -238,11 +239,13 @@ a:hover{
     flex-wrap:wrap;
     justify-content: center;
     column-gap:25px;
+
 }
 .tables{
     width:31%;
-    border:1px solid #3b1bf2;
+    border:1px solid #3b1bf26b;
     border-radius: 4px;
+    margin-bottom:48px !important;
 
 
 }
@@ -254,15 +257,20 @@ a:hover{
 .table-lines{
     border:2px solid black;
     width:80%;
+    margin-top:-10px !important;
 }
 .table-lines > h2{
     text-align: left;
     font-size: 20px;
     color:#2f1c6a;
+    margin-top:20px;
+    padding-bottom:10px;
+
 }
 .table-lines > p{
     text-align: left;
-    margin-bottom:10px !important;
+    margin-bottom:16px !important;
+    margin-left:-80px !important;
     color:#2f1c6a !important;
 }
 .tables p{
