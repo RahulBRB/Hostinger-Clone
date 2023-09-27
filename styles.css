@@ -337,3 +337,32 @@ a:hover{
 }
 
 /*container section PART-A*/
+.containerA{
+    display:flex;
+    border:1px solid black;
+    width:78%;
+    justify-content: center;
+    margin-top:120px;
+}
+.leftA{
+    width:100%;
+}
+.leftA h1{
+    font-size: 36px;
+    color:#2f1c6a;
+    margin-bottom: 28px;
+    text-align: start;
+    margin-top:35px;
+}
+.leftA p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: start;
+
+}
+.rightA{
+
+}
+.rightA img{
+    height:399px;
+}
