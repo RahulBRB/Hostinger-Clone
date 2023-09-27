@@ -360,9 +360,22 @@ a:hover{
     text-align: start;
 
 }
-.rightA{
 
-}
 .rightA img{
     height:399px;
+}
+
+.lowerA {
+    color:#2f1c6a;
+    background-color: #fafbff;
+    font-size: 14px;
+    width:25%;
+    border:1px solid black;
+    text-align: start;
+    padding:20px;
+    border-radius: 4px;
+}
+.lowerA img{
+    height:25px;
+    margin-bottom:2%;
 }
