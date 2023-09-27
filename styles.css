@@ -311,9 +311,20 @@ a:hover{
 }
 
 /*Map section*/
+
+.outerMap{
+    background-color: #fafbff;
+    border:2px solid blue;
+}
+.innerMap{
+    border:2px solid black;
+    margin-top: 96px;
+    width:78%;
+}
 .innerMap h1{
     color:#2f1c6a ;
     font-size:36px;
+    margin-bottom:32px;
 }
 .innerMap p{
     font-size:16px;
