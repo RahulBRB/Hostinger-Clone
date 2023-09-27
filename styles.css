@@ -311,3 +311,11 @@ a:hover{
 }
 
 /*Map section*/
+.innerMap h1{
+    color:#2f1c6a ;
+    font-size:36px;
+}
+.innerMap p{
+    font-size:16px;
+    color:#2f1c6a;
+}
