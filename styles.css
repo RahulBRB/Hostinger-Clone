@@ -337,7 +337,7 @@ a:hover{
 }
 
 /*container section PART-A*/
-.containerA{
+.upperA{
     display:flex;
     border:1px solid black;
     width:78%;
