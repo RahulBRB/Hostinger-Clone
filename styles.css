@@ -230,7 +230,8 @@ a:hover{
 }
 
 .pricing-table{
-    height:1152px;
+    height:auto;
+    margin-bottom:80px;
     width:80%;
     margin-top: 48px;
     display:flex;
