@@ -320,6 +320,8 @@ a:hover{
     border:2px solid black;
     margin-top: 96px;
     width:78%;
+    margin-bottom: 96px;
+
 }
 .innerMap h1{
     color:#2f1c6a ;
@@ -329,4 +331,8 @@ a:hover{
 .innerMap p{
     font-size:16px;
     color:#2f1c6a;
+    margin-bottom:4%;
+}
+.innerMap img{
+    width:100%;
 }
