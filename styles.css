@@ -378,9 +378,10 @@ a:hover{
 }
 .lowerBox{
     width:32%;
+    border:2px solid rgba(0, 0, 0, 0.089);
     color:#2f1c6a;
     background-color: #fafbff;
-    font-size: 15px;
+    font-size: 16px;
     text-align: start;
     padding:20px;
     border-radius: 4px;
