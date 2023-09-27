@@ -339,7 +339,6 @@ a:hover{
 /*container section PART-A*/
 .upperA{
     display:flex;
-    border:1px solid black;
     width:78%;
     justify-content: center;
     margin-top:120px;
@@ -366,13 +365,8 @@ a:hover{
 }
 
 .lowerA {
-    color:#2f1c6a;
-    background-color: #fafbff;
-    font-size: 16px;
-    width:25%;
-    text-align: start;
-    padding:20px;
-    border-radius: 4px;
+    width:78%;
+
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -381,4 +375,17 @@ a:hover{
 .lowerA img{
     height:25px;
     margin-bottom:2%;
+}
+.lowerBox{
+    width:25%;
+    color:#2f1c6a;
+    background-color: #fafbff;
+    font-size: 16px;
+    text-align: start;
+    padding:20px;
+    border-radius: 4px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border:1px solid black;
 }
