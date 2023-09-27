@@ -370,6 +370,7 @@ a:hover{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom:80px;
 }
 .lowerA img{
     height:25px;
@@ -379,10 +380,9 @@ a:hover{
     width:32%;
     color:#2f1c6a;
     background-color: #fafbff;
-    font-size: 16px;
+    font-size: 15px;
     text-align: start;
     padding:20px;
     border-radius: 4px;
     
-    border:1px solid black;
 }
