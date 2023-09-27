@@ -314,12 +314,11 @@ a:hover{
 
 .outerMap{
     background-color: #fafbff;
-    border:2px solid blue;
 }
 .innerMap{
-    border:2px solid black;
-    margin-top: 96px;
     width:78%;
+    padding-top: 96px;
+
     margin-bottom: 96px;
 
 }
