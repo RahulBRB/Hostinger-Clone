@@ -378,7 +378,6 @@ a:hover{
 }
 .lowerBox{
     width:32%;
-    border:2px solid rgba(0, 0, 0, 0.089);
     color:#2f1c6a;
     background-color: #fafbff;
     font-size: 15px;
@@ -391,6 +390,9 @@ a:hover{
 /*container section PART-A*/
 .containerB{
     margin-top:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+
 }
 .leftB{
     width:40%;
