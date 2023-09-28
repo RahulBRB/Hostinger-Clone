@@ -381,9 +381,23 @@ a:hover{
     border:2px solid rgba(0, 0, 0, 0.089);
     color:#2f1c6a;
     background-color: #fafbff;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 0;
     text-align: start;
     padding:20px;
     border-radius: 4px;
     
+}
+/*container section PART-A*/
+.containerB{
+    margin-top:100px;
+}
+.leftB{
+    width:40%;
+    margin-bottom:35px;
+
+}
+.rightB{
+    margin-left:20%;
+    width:40%;
 }
