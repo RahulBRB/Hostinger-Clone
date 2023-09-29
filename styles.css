@@ -427,4 +427,66 @@ a:hover{
     padding-bottom:50px !important;
 }
 
-/*container section part next*/
+/*featured store*/
+.featured-store{
+    margin-top:96px;
+    color:#2f1c6a;
+    border:2px solid black;
+    height:auto;
+}
+.featured-store h1{
+    font-size:36px;
+
+}
+
+.col {
+    border:1px solid rgba(0, 0, 255, 0.121);
+    border-radius: 6px;
+    text-align: left;
+}
+.col img, .col p, .col a{
+    padding:10px;
+    align-items: start;
+}
+.col img{
+    height: 50px;
+    margin-top:50px !important;
+}
+.col p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.row{
+    display: flex !important;
+    width:90%;
+    flex-wrap: wrap;
+    margin-top:46px;
+}
+
+.card {
+    margin-top:48px;
+    background-color: #f4f5ff;
+    padding:0px !important;
+}
+
+.cardContent{
+    border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.cardLeft {
+    border:1px solid black;
+    width:25%;
+}
+.cardLeft img {
+    height:85px;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+
+}
+.cardRight{
+    border:1px solid black;
+    width:72%;
+}
