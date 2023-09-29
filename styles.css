@@ -443,6 +443,7 @@ a:hover{
     border:1px solid rgba(0, 0, 255, 0.121);
     border-radius: 6px;
     text-align: left;
+    height:auto;
 }
 .col img, .col p, .col a{
     padding:10px;
