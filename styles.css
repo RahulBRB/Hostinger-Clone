@@ -431,8 +431,8 @@ a:hover{
 .featured-store{
     margin-top:96px;
     color:#2f1c6a;
-    border:2px solid black;
     height:auto;
+    padding-bottom:96px;
 }
 .featured-store h1{
     font-size:36px;
@@ -453,9 +453,10 @@ a:hover{
     height: 50px;
     margin-top:50px !important;
 }
-.col p{
+.col .p{
     font-size: 14px;
     line-height: 25px;
+    height:130px;
 }
 
 .row{
