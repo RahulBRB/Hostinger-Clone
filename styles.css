@@ -471,13 +471,11 @@ a:hover{
 }
 
 .cardContent{
-    border:1px solid black;
     display:flex;
     flex-wrap: wrap;
 
 }
 .cardLeft {
-    border:1px solid black;
     width:25%;
 }
 .cardLeft img {
@@ -487,6 +485,6 @@ a:hover{
 
 }
 .cardRight{
-    border:1px solid black;
     width:72%;
+    text-align: left !important;
 }
