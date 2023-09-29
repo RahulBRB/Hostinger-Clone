@@ -387,6 +387,9 @@ a:hover{
     border-radius: 4px;
     
 }
+.lowerBox p{
+    padding:5px;
+}
 /*container section PART-A*/
 .containerB{
     margin-top:100px;
@@ -417,6 +420,6 @@ a:hover{
 .containerE p, .containerE h1{
     color:#ffffff !important;
 }
-.containerE > .lowerBox{
+.darkbox{
     background-color: #5025d1 !important;
 }
