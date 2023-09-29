@@ -405,7 +405,10 @@ a:hover{
 }
 /*container section PART-D*/
 .containerD{
-    border: 1px solid black;
-    height:744px;
     color:#2f1c6a;
+    margin-top:96px;
+    margin-bottom:96px;
+}
+.containerD > h1{
+    font-size:36px;
 }
