@@ -414,3 +414,9 @@ a:hover{
 }
 
 /*container section part E*/
+.containerE p, .containerE h1{
+    color:#ffffff !important;
+}
+.containerE > .lowerBox{
+    background-color: #5025d1 !important;
+}
