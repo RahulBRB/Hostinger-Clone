@@ -529,3 +529,44 @@ a:hover{
 
 
 /*Footer*/
+
+/* unvisited link */
+footer a:link {
+    color:#301c6ab0 !important;
+  }
+  
+footer a{
+    text-decoration: none;
+}
+  /* visited link */
+footer  a:visited {
+    color: #2f1c6a !important;
+  }
+  
+  /* mouse over link */
+footer a:hover {
+    color: #5025d1 !important;
+  }
+  
+  /* selected link */
+footer a:active {
+    color:#301c6ab0 !important;
+  }
+
+footer{
+    padding-top:20px;
+}
+
+ h6{
+    font-size: 18px !important;
+    color:#2f1c6a !important;
+}
+
+footer p{
+    color:#301c6ab0;
+    line-height:25px;
+}
+
+.footlowest{
+    color:#301c6aab;
+}
