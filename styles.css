@@ -276,14 +276,14 @@ a:hover{
 .table-lines > p{
     text-align: left;
     margin-bottom:16px !important;
-    margin-left:-80px !important;
+    margin-left:0px !important;
     color:#2f1c6a !important;
 }
 .tables p{
     font-size: 14px;
     color:#301c6a98;
     font-weight:0;
-    width:73%;
+    width:100%;
 }
 .tables p > .saving{
     color:#727586;
