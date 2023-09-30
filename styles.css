@@ -507,3 +507,9 @@ a:hover{
 }
 
 /*button*/
+.btn-last{
+    background-color: #f8f7f7;
+    color:#2f1c6a;
+    border:2px solid #2f1c6a;
+    font-size: 16px;
+}
