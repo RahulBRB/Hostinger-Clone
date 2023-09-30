@@ -526,3 +526,10 @@ a:hover{
     color:#673de6;
     transition: ease-in-out 0.3s;
 }
+
+
+/*Footer*/
+footer{
+    background-color: #f4f5ff;
+    height:992px;
+}
