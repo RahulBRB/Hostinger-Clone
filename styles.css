@@ -599,7 +599,7 @@ footer p{
 }
 
 .right-side img{
-    width:100%;
+    width:400px;
     margin-left: 0px !important;
     height:auto;
     margin-top:62px;
@@ -651,11 +651,11 @@ footer p{
 
 }
 .reviewbox .brand{
-    height:32px;
+    height:28px;
     margin-top:10px;
 }
 .reviewbox img{
-    height:32px;
+    height:35px;
     margin-top:5px;
 }
     
@@ -766,10 +766,88 @@ footer p{
 }
 
 .containerB > .lowerA{
-    border:1px solid black;
     margin-left: 10%;
 }
 
 
+/*featured store*/
+.featured-store{
+    margin-top:96px;
+    color:#2f1c6a;
+    height:auto;
+}
+.featured-store h1{
+    font-size:36px;
+
 }
 
+.col {
+    border:1px solid rgba(0, 0, 255, 0.121);
+    border-radius: 6px;
+    text-align: left;
+    height:auto;
+    width:100% !important;
+}
+.col img, .col p, .col a{
+    padding:10px;
+    align-items: start;
+}
+.col img{
+    height: 50px;
+    margin-top:50px !important;
+}
+.col .p{
+    font-size: 14px;
+    line-height: 25px;
+    height:130px;
+}
+
+.row{
+    display: flex !important;
+    width:80%;
+    flex-wrap: wrap !important;
+    margin-top:46px;   
+
+}
+
+.card {
+    margin-top:48px;
+    background-color: #f4f5ff;
+    padding:0px !important;
+    margin-bottom:0px;
+    margin-left:-12px !important;
+    margin-right:-12px !important;
+
+}
+
+.cardContent{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.cardLeft {
+    width:25%;
+}
+.cardLeft img {
+    height:85px;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+
+}
+.cardRight{
+    width:72%;
+    text-align: left !important;
+    margin:0px !important;
+    padding:0px !important;
+
+}
+.card_body > .card_title{
+    padding-top:20px !important;
+}
+.cardRight p{
+   vertical-align:middle;
+    margin:0px !important;
+    padding:0px !important;
+}
+
+}
