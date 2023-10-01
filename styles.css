@@ -573,8 +573,86 @@ footer p{
 }
 
 /*MEDIA QUERIES*/
-@media only screen and (min-width:400px) and (max-width: 1200px){
-    /* For desktop: */
+@media only screen and (min-width:800px) and (max-width: 1300px){
+    .navbar-left {
+        display: flex;
+        height: 32px;
+        margin-left: 1%;
+    }
+
+    /*Navbar*/
+.hero-container{
+    height:auto;
+    width:75%;
+    margin-left:10%;
+    margin-right:auto;
+}
+.inside-hero-container{
+    height:auto;
+    width:80%;
+    margin-top:164px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.right-side img{
+    width:100%;
+    margin-left: 0px !important;
+    height:auto;
+    margin-top:62px;
+    margin-bottom:-28px;
+}
+.left-side{
+    height:548px;
+    width:429px;
+    text-align: start;
+}
+
+/*Review first*/
+
+.review-first{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:80px;
+    justify-content: center;
+    column-gap: 25px;
+
+
+}
+.review-first p{
+    font-size:13px;
+    color:gray;
+}
+.review-first .review-bold{
+    font-weight: 700px;
+    color:black;
+}
+.trustpilot{
+    width:20%;
+    text-align: left;
+
+
+}
+.trustpilot .brand{
+    height:32px;
+}
+.trustpilot .stars{
+    height:45px;
+}
+.reviewbox{
+    width:20%;
+    text-align: left;
+}
+.reviewbox .brand{
+    height:23px;
+    margin-top:10px;
+}
+.reviewbox img{
+    height:30px;
+    margin-top:5px;
+}
     
 }
 
