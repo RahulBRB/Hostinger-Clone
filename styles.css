@@ -574,9 +574,22 @@ footer p{
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 768px) and (max-width: 927px){
     /* For desktop: */
+    body{
+        overflow-x:hidden !important;
+    }
     .navbar-left {
       
         margin-left: -142px;
+    }
+    
+    .pricing-section{
+        align-items: center;
+        text-align: center;
+        margin-left:8%;
+        width:1200px;
+    }
+    .most{
+        padding: 10px 10px;
     }
     
   }
