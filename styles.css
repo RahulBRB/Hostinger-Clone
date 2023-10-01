@@ -613,8 +613,8 @@ footer p{
 .review-first{
     height:auto;
     width:100%;
-    display:flex;
-    flex-wrap: wrap;
+    display:flex !important;
+    flex-wrap: wrap !important;
     margin-top:80px;
     justify-content: center;
     column-gap: 25px;
@@ -622,16 +622,16 @@ footer p{
 
 }
 .review-first p{
-    font-size:13px;
+    font-size:15px;
     color:gray;
 }
 .review-first .review-bold{
-    font-weight: 700px;
     color:black;
 }
 .trustpilot{
-    width:20%;
+    width:100%;
     text-align: left;
+    margin-bottom:8%;
 
 
 }
@@ -642,17 +642,30 @@ footer p{
     height:45px;
 }
 .reviewbox{
-    width:20%;
+    width:100%;
     text-align: left;
+    margin-bottom:8%;
+
 }
 .reviewbox .brand{
-    height:23px;
+    height:32px;
     margin-top:10px;
 }
 .reviewbox img{
-    height:30px;
+    height:32px;
     margin-top:5px;
 }
     
+
+
+
+
+
+
+
+
+
+
+
 }
 
