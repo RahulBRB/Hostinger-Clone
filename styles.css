@@ -9,6 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none !important;
     list-style-type: none !important;
+    overflow-x: hidden;
 }
 a:visited{
     color:#1d1e20;
@@ -602,6 +603,17 @@ footer p{
     }
     .most-content{
         width:1350px !important;
+    }
+  
+    .card-all .row{
+        display: block !important;
+    }
+    .card-all .col{
+        width:80%;
+    }
+    .footfoot center{
+        width:1100px;
+        margin-left:-25%;
     }
   }
 
