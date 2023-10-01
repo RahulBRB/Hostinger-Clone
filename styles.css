@@ -575,50 +575,6 @@ footer p{
 /*MEDIA QUERIES*/
 @media only screen and (min-width:400px) and (max-width: 1200px){
     /* For desktop: */
-    body{
-        overflow-x:hidden !important;
-    }
-    .navbar-left {
-      
-        margin-left: 2%;
-    }
     
-    .pricing-section{
-        align-items: center;
-        text-align: center;
-        margin-left:8%;
-        width:1200px;
-    }
-    .most{
-        padding: 10px 10px;
-    }
-    .outerMap{
-        width:100%;
-        margin-left: 35%;
-    }
-    .innerMap {
-        width: 100%;
-        padding-top: 96px;
-        margin-bottom: 96px;
-    }
-    .most-content{
-        width:1350px !important;
-    }
-  
-    .card-all .row{
-        display: block !important;
-    }
-    .card-all .col{
-        width:80%;
-    }
-    .footfoot center{
-        display: none;
-    }
-  }
+}
 
-
-
-  @media only screen and (max-width: 399px) {
-    /* For mobile phones: */
-    
-  }
