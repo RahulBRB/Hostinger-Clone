@@ -2,7 +2,7 @@
 
 Welcome to the Hostinger Clone Website, a project created to showcase the skills in Web dev. This GitHub-hosted clone site mirrors the design of the popular web hosting service, Hostinger.com.
 
-🔨 Tech Stack: Frontend: HTML & CSS (very little Bootstrap).<br>
+🔨 Tech Stack: Frontend: HTML, CSS, Bootstrap.<br>
 📚 Source Code: https://github.com/RahulBRB/Hostinger-Clone<br>
 🌐 Live Demo: soon<br>
 
