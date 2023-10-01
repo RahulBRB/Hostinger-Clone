@@ -573,14 +573,14 @@ footer p{
 }
 
 /*MEDIA QUERIES*/
-@media only screen and (min-width: 768px) and (max-width: 927px){
+@media only screen and (min-width:400px) and (max-width: 1200px){
     /* For desktop: */
     body{
         overflow-x:hidden !important;
     }
     .navbar-left {
       
-        margin-left: -142px;
+        margin-left: 2%;
     }
     
     .pricing-section{
@@ -612,13 +612,13 @@ footer p{
         width:80%;
     }
     .footfoot center{
-        width:1100px;
-        margin-left:-25%;
+        display: none;
     }
   }
 
 
-  @media only screen and (max-width: 768px) {
+
+  @media only screen and (max-width: 399px) {
     /* For mobile phones: */
     
   }
