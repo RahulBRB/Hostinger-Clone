@@ -591,7 +591,16 @@ footer p{
     .most{
         padding: 10px 10px;
     }
-    
+    .outerMap{
+        border:2px solid black;
+        width:100%;
+        margin-left: 35%;
+    }
+    .innerMap {
+        width: 100%;
+        padding-top: 96px;
+        margin-bottom: 96px;
+    }
   }
 
 
