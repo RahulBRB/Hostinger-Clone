@@ -573,18 +573,21 @@ footer p{
 }
 
 /*MEDIA QUERIES*/
-@media only screen and (min-width:800px) and (max-width: 1300px){
+@media only screen and (min-width:500px) and (max-width: 1200px){
     .navbar-left {
         display: flex;
         height: 32px;
         margin-left: 1%;
+    }
+    .navbar-right{
+        display:none;
     }
 
     /*Navbar*/
 .hero-container{
     height:auto;
     width:75%;
-    margin-left:10%;
+    margin-left:5%;
     margin-right:auto;
 }
 .inside-hero-container{
@@ -657,10 +660,37 @@ footer p{
 }
     
 
+/*Pricing section*/
+.pricing-section{
+    text-align: center;
+    margin-top:100px;
 
+}
+.pricing-section h1{
+    
+    color:#2f1c6a;
+    font-size: 36px;
+    font-weight: 700px;
+}
 
+.pricing-table{
+    height:auto;
+    margin-bottom:80px;
+    width:80%;
+    margin-top: 48px;
+    display:flex !important;
+    flex-wrap:wrap !important;
+    justify-content: start;
+    column-gap:25px;
 
+}
+.tables{
+    width:100%;
+    border:1px solid #3b1bf26b;
+    border-radius: 4px;
+    margin-bottom:48px !important;
 
+}
 
 
 
