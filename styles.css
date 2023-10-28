@@ -10,6 +10,12 @@ body{
     text-decoration: none !important;
     list-style-type: none !important;
     overflow-x: hidden;
+    background-color: white;
+    color:black;
+}
+.dark{
+    background-color: black !important;
+    color:white !important;
 }
 a:visited{
     color:#1d1e20;
@@ -24,6 +30,34 @@ a:hover{
     color:#1d1e20b7 !important;
 }
 
+/*coupon*/
+.coupon{
+    position:fixed;
+    height:350px;
+    width:50%;
+    left:25%;
+    top:25%;
+    background-color: #673de6;
+    border-radius: 8px;
+    box-shadow: black 0px 0px 100px 0px;
+    color:white;
+    padding:5%;
+    padding-top:4.5%;
+    
+    z-index:2;
+}
+.coupon .price{
+    color:rgba(8, 225, 215, 0.991);
+}
+.close{
+    position:absolute;
+    left: 724px;
+    top: 0px;
+    border-radius: 8px;
+
+    color:white;
+    font-size: 30px;
+}
 /*Navbar*/
 .navbar {
     color: #1d1e20;
