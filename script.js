@@ -1,5 +1,4 @@
 let x=document.getElementById("out_weather");
-let y=document.getElementById("weather");
 
 
 function geolocation(){
@@ -24,7 +23,7 @@ function showPosition(){
         console.log(data)
         let cityName = data.city.name;
         let temp=data.list[0].temp.day+"°C";
-        y.innerText="Weather in ${cityName} is ${temp}"
+        x.innerText="Weather in ${cityName} is ${temp}"
     })
 }
 
