@@ -10,7 +10,7 @@ function geolocation(){
     }
 }
 
-function showPosition(){
+function showPosition(data){
     console.log(data)
     let lat = data.coords.latitude;
     let lon = data.coords.longitude;
