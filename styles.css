@@ -106,6 +106,10 @@ a:hover{
     border:2px solid black;
     border-radius: 5px;
 }
+
+.geo:hover{
+    cursor: pointer;
+}
 /*Navbar*/
 .hero-container{
     height:808px;
