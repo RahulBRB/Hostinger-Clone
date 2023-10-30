@@ -70,7 +70,7 @@ a:hover{
 .navbar-left{
     display:flex;
     height:auto;
-    margin-left: -80px;
+    margin-left: 0px;
 }
 .navbar-brand img{
     padding-top: 0px;
