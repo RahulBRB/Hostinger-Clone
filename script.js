@@ -32,6 +32,9 @@ window.onload = () => {
 window.onload = () => {
     geolocation();
 }
+window.onload = () => {
+    geolocation();
+}
 const onLoadPage = () =>{
     const couponBody = getDocumentsByClassName('coupon')[0];
     couponBody.style.visibility = 'visible'
@@ -47,6 +50,9 @@ const mode = () => {
     let newbody = document.body;
     newbody.classList.toggle('dark');
 }
+
+
+
 
 
 
