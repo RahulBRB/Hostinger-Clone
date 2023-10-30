@@ -13,7 +13,9 @@ function geolocation(){
 
 function showPosition(){
     console.log(data)
-    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+    let lat = data.coords.latitude;
+    let lon = data.coords.longitude;
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=21d9279875a92557db21d88b348cde32`;
 
 
     fetch(url,{method:"GET"})
