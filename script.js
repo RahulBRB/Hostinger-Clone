@@ -1,35 +1,10 @@
-const x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(getWeatherData);
-  } else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function getWeatherData(position) {
-  const latitude = position.coords.latitude;
-  const longitude = position.coords.longitude;
-
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=21d9279875a92557db21d88b348cde32`;
-
-  fetch(apiUrl)
-    .then((response) => response.json())
-    .then((data) => {
-      const cityName = data.name;
-      const temperatureInCelsius = data.main.temp - 273.15; 
-
-      x.innerText = `City: ${cityName}, Temperature: ${temperatureInCelsius.toFixed(2)}°C`;
-    })
-    .catch((error) => {
-      y.innerText = "Failed to fetch weather data.";
-    });
-}
 
 
 window.onload = () => {
     onLoadPage();
+}
+window.onload = () => {
+    getLocation();
 }
 
 const onLoadPage = () =>{

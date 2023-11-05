@@ -31,9 +31,40 @@
     <nav class="navbar fixed-top">
         <div class="container">
             <div class="navbar-left">
-                <a class="navbar-brand" href="#"><img src="Assets/logo.svg" alt="hostinger logo"></a>
-                <button onclick="getLocation()">Try It</button>
-                <p id="demo"></p>
+              <a class="navbar-brand" href="#"><img src="Assets/logo.svg" alt="hostinger logo"></a>
+              <button onclick="getLocation()"><img src="Assets/weather.png" style="height: 30px;"></button>
+              <p id="demo"></p>
+              <script>
+              const x = document.getElementById("demo");
+              
+              function getLocation() {
+                if (navigator.geolocation) {
+                  navigator.geolocation.getCurrentPosition(getWeatherData);
+                } else {
+                  x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+              }
+              
+              function getWeatherData(position) {
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+              
+                const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=21d9279875a92557db21d88b348cde32`;
+              
+                fetch(apiUrl)
+                  .then((response) => response.json())
+                  .then((data) => {
+                    const cityName = data.name;
+                    const temperatureInCelsius = data.main.temp - 273.15; 
+              
+                    x.innerText = `${cityName} (${temperatureInCelsius.toFixed(2)}°C)`;
+                  })
+                  .catch((error) => {
+                    y.innerText = "Failed to fetch weather data.";
+                  });
+              }
+              
+              </script>
 
             </div>
 
