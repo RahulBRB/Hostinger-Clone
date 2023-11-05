@@ -1,5 +1,4 @@
-
-let x=document.getElementById("out_weather");
+const x = document.getElementById("demo");
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -24,16 +23,15 @@ function getWeatherData(position) {
       x.innerText = `City: ${cityName}, Temperature: ${temperatureInCelsius.toFixed(2)}°C`;
     })
     .catch((error) => {
-      x.innerText = "Failed to fetch weather data.";
+      y.innerText = "Failed to fetch weather data.";
     });
 }
+
 
 window.onload = () => {
     onLoadPage();
 }
-window.onload = () => {
-    getLocation();
-}
+
 const onLoadPage = () =>{
     const couponBody = getDocumentsByClassName('coupon')[0];
     couponBody.style.visibility = 'visible'
