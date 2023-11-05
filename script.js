@@ -1,30 +1,31 @@
+
 let x=document.getElementById("out_weather");
 
-
-function geolocation(){
-    if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(showPosition)
-
-    }else{
-        x.innerText="Geolocation Not Supported"
-    }
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(getWeatherData);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
 }
 
-function showPosition(data){
-    console.log(data)
-    let lat = data.coords.latitude;
-    let lon = data.coords.longitude;
-    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=21d9279875a92557db21d88b348cde32`;
+function getWeatherData(position) {
+  const latitude = position.coords.latitude;
+  const longitude = position.coords.longitude;
 
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=21d9279875a92557db21d88b348cde32`;
 
-    fetch(url,{method:"GET"})
-    .then((res)=>res.json())
-    .then((data)=>{
-        console.log(data)
-        let cityName = data.city.name;
-        let temp=data.list[0].temp.day+"°C";
-        x.innerText="Weather in ${cityName} is ${temp}"
+  fetch(apiUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      const cityName = data.name;
+      const temperatureInCelsius = data.main.temp - 273.15; 
+
+      x.innerText = `City: ${cityName}, Temperature: ${temperatureInCelsius.toFixed(2)}°C`;
     })
+    .catch((error) => {
+      x.innerText = "Failed to fetch weather data.";
+    });
 }
 
 window.onload = () => {
